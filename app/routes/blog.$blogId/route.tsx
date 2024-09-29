@@ -10,7 +10,7 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 export async function loader({ params }: { params: { blogId: string } }) {
   //construct file path
-  const blogDirectory: string = path.resolve(process.cwd(), 'app', 'blog');
+  const blogDirectory: string = path.resolve(process.cwd(), 'public');
   const filePath: string = path.join(blogDirectory, `${params.blogId}.md`);
 
   if (!fs.existsSync(filePath)) {

@@ -19,7 +19,7 @@ export async function loader() {
   const __dirname: string = path.dirname(__filename);
 
   // markdown files on app directory app/blog/*.md
-  const blogDirectory: string = path.join(__dirname, '../../blog');
+  const blogDirectory: string = path.join(__dirname, '../../../public');
 
   type BlogPost = {
     title: string;
