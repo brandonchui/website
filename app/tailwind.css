@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    /* fixes issue with scrollbar shifting nav a couple pixels */
+    overflow-y: scroll;
+}
+
+body {
+    @apply bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-200;
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    }
+
+    /*font-family: 'Fira Code', monospace;*/
+}
+
