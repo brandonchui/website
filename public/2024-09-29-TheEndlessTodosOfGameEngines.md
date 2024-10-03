@@ -19,6 +19,8 @@ Windows applications usually have a title bar where the minimize, maximize, and 
 ![Description of the image](/GameEngine-2.jpg)
 ### Logging
 I used Spdlog as my logging library of choice. However, the implementation is weak in my program since I desperately need a better error-catching system. My issue is that try/catch blocks are not ideal for performance-critical work, so I actively avoided them. This made my program error-prone, as I could not figure out an alternative.
+### Unit Testing
+I used catch2 as my testing library, only because I couldn't figure out how to get gtest to work. Nonetheless, catch2 is a relatively easy and straight forward library. I did not get the chance to add too many test cases yet, but the underlying implementation exists currently.
 
 The program is bare-bones, and I don't consider it a game engine. There is a whole list of TODOs that need to be implemented before laying down any visual work. The program's architecture is weak at the moment, as I still need to work on getting a message bus, window abstraction, and error captures, just to name a few.
 
