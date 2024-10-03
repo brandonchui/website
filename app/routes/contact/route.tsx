@@ -6,7 +6,7 @@ export default function AboutMe() {
       {/* hero image */}
       <div className="flex justify-center mb-8">
         <img
-          src="/lucky.jpg"
+          src="/ProfilePic.png"
           alt="profile"
           className="w-40 h-40 rounded-full object-cover border-4 border-gray-300"
         />
@@ -14,12 +14,13 @@ export default function AboutMe() {
 
       {/* intro */}
       <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-4">Hi, I'm {name}!</h2>
+        <h2 className="text-2xl font-bold mb-4">Hey, I'm {name}!</h2>
         <p className="text-lg">
-          I am a Computer Science student at the University of Southern
-          California. I’m passionate about software development, with interests
-          ranging from web technologies to game development. I enjoy tackling
-          all sorts of coding challenges and am always eager to learn more!
+          I'm a Computer Science student at the University of Southern
+          California. I'm always looking to pick up new skills, whether it’s
+          coding or even dabbling in some art. I enjoy working with others and
+          thrive in a team setting. When I’m not coding, I love to travel and
+          explore some off the beaten path destination around the world!
         </p>
       </section>
 
@@ -62,8 +63,13 @@ export default function AboutMe() {
             linkedin
           </a>{' '}
           or my
-          <a href="/resume" className="text-blue-500 hover:underline ml-1">
-            résumé.
+          <a
+            href="https://drive.google.com/file/d/1RW7osN100mVK6ys0yVAtFDX2L275ogGD/view?usp=sharing"
+            className="text-blue-500 hover:underline ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            résumé (google drive).
           </a>
         </p>
       </section>

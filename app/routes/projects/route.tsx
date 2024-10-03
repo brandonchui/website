@@ -26,7 +26,7 @@ export default function Projects() {
       link: '/blog/2024-09-29-TheMakingOfAReplayableGame',
     },
     {
-      image: '/placeholder.jpg',
+      image: '/GameEngine-1.jpg',
       title: 'Game Engine',
       description: 'An ambitious learning project to ease game development',
       link: '/blog/2024-09-29-TheEndlessTodosOfGameEngines',
